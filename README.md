@@ -1,11 +1,11 @@
-# COMP3278 Group 6 Project
-## Members
+# Face Recognition Authenticated Data Fetching System
+## Credits
 <ul>
-  <li>Chan Yu Yan Sam 3035188203</li>
-  <li>Kwan Man Hei 3035460259</li>
-  <li>Srivastava Dhruv 3035667792</li>
-  <li>Tamanna Singhal 3035664647</li>
-  <li>Oshi Garg 3035714325</li>
+  <li>Chan Yu Yan, Sam </li>
+  <li>Kwan Man Hei, Andy </li>
+  <li>Srivastava Dhruv </li>
+  <li>Tamanna Singhal </li>
+  <li>Oshi Garg </li>
 </ul>
 
 ## Execution Instructions
@@ -43,13 +43,13 @@ python train.py
 `train.yml` and `labels.pickle` will be created at the current folder.
 
 ### Step 4: Connect Script to the Database
-Before running the `COMP3278_GR6_Application.py` script, please connect the script with the database by changing `user` and `passwd` values as follows (where `xxxxx` is the password of the user's root):
+Before running the `DF_App.py` script, please connect the script with the database by changing `user` and `passwd` values as follows (where `xxxxx` is the password of the user's root):
 ```
 # create database connection
 myconn = mysql.connector.connect(host="localhost", user="root", passwd="xxxxx", database="comp3278gr6")
 ```
 ### Step 5: Run the Application
-Run the `COMP3278_GR6_Application.py` script to run the application (it may take some time to start). Please refer to the demo video on how to use the application.
+Run the `DF_App.py` script to run the application (it may take some time to start). Please refer to the demo video on how to use the application.
 ```
-python COMP3278_GR6_Application.py
+python DF_App.py
 ```
