@@ -53,3 +53,5 @@ Run the `DF_App.py` script to run the application (it may take some time to star
 ```
 python DF_App.py
 ```
+
+Note: Use `python3` instead of `python` to run the python scripts depending on your PATH environment variable.
